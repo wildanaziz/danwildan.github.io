@@ -93,7 +93,7 @@ br {
 
 .btn{
     display: inline-block;
-    padding: 10px 25px;
+    padding: 10px 20px;
     border-radius: 3px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -145,3 +145,8 @@ br {
     color: #03bfbc;
 }
 
+@media only screen and (max-width: 411px) {
+    .card {
+        max-width: 300px;
+    }
+}
