@@ -101,6 +101,17 @@ br {
     cursor: pointer;
 }
 
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    transition: all .5s ease;
+    cursor: pointer;
+    border: 1px solid;
+}
+
 .btn-outline-primary{
     border:1px solid #03bfbc;
 }
